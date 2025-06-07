@@ -1148,3 +1148,87 @@ footer .footer_top .info .subscribe_button {
 		justify-content: center;
 	}
 }
+
+/* styles task ALFA-65 */
+.section-our-team h2 {
+	margin: 0;
+}
+.section-our-team .description-our-team {
+	margin: 0;
+	padding: 26px 0 36px;
+}
+
+.section-carts-employees .wrapper-carts {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+
+.section-carts-employees .wrapper-carts .cart-employee {
+	padding: 16px;
+}
+.section-carts-employees .wrapper-carts .cart-employee .wrapper-cart-employee {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+}
+.cart-employee .wrapper-cart-employee .cart-image-employee {
+	padding: 66.6% 0 0;
+	position: relative;
+	overflow: hidden;
+}
+.wrap-cart-image-employee {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.wrap-cart-image-employee img {
+	width: 100%;
+	max-height: 1000%;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	margin: 0 auto;
+	display: inline;
+}
+.cart-employee .wrapper-cart-employee .cart-content-employee {
+	padding: 30px 30px 35px;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	gap: 12px;
+	border: 1px solid rgba(119, 119, 119, 0.2);
+	border-top: none;
+}
+.cart-employee .wrapper-cart-employee .cart-content-employee .name-employee {
+	font-size: 26px;
+	line-height: 35px;
+	margin: 0;
+	color: #333;
+}
+.cart-employee
+	.wrapper-cart-employee
+	.cart-content-employee
+	.job-title-employee {
+	font-size: 16px;
+	line-height: 25px;
+	margin: 0;
+	color: #333;
+}
+
+.cart-employee
+	.wrapper-cart-employee
+	.cart-content-employee
+	.description-employee {
+	font-size: 13px;
+	line-height: 18px;
+	margin: 0;
+	color: #333;
+}
+
+.example-block h2 {
+	margin: 33px 0 25px;
+}
