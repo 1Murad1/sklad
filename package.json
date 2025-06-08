@@ -22,5 +22,8 @@
 	"homepage": "https://github.com/1Murad1/sklad#readme",
 	"devDependencies": {
 		"live-server": "^1.2.2"
+	},
+	"dependencies": {
+		"swiper": "^11.2.8"
 	}
 }

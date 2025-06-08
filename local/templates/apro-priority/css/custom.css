@@ -1232,3 +1232,78 @@ footer .footer_top .info .subscribe_button {
 .example-block h2 {
 	margin: 33px 0 25px;
 }
+
+/* links slider */
+
+.section-links-slider {
+	padding: 40px 0;
+}
+.section-links-slider .wrapper-links-slider {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 15px;
+}
+.section-links-slider h2 {
+	margin-bottom: 10px;
+}
+.section-links-slider .links-slider {
+	width: 100%;
+}
+.section-links-slider .links-slider .swiper-slide {
+	width: auto;
+}
+.section-links-slider .links-slider .swiper-slide a {
+	transition: 0.5s all;
+	color: #777;
+}
+
+.section-links-slider .links-slider .swiper-slide a:hover {
+	color: #ef5a54;
+}
+.wrapper-links-slider .swiper-button-next,
+.wrapper-links-slider .swiper-button-prev {
+	position: relative;
+	top: initial;
+	left: initial;
+	bottom: initial;
+	right: initial;
+	width: 25px;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	transition: 0.5s all;
+	border-radius: 4px;
+	display: flex;
+	background-color: #fff;
+	align-items: center;
+	border: none;
+	outline: none;
+	justify-content: center;
+	left: auto;
+	right: auto;
+}
+.wrapper-links-slider .swiper-button-next svg,
+.wrapper-links-slider .swiper-button-prev svg {
+	width: 7px;
+	height: 12px;
+}
+.wrapper-links-slider .swiper-button-next svg path,
+.wrapper-links-slider .swiper-button-prev svg path {
+	transition: 0.5s all;
+}
+
+.wrapper-links-slider .swiper-button-next:hover,
+.wrapper-links-slider .swiper-button-prev:hover {
+	background-color: #ef5a54;
+}
+
+.wrapper-links-slider .swiper-button-next:hover svg path,
+.wrapper-links-slider .swiper-button-prev:hover svg path {
+	fill: #ffffff;
+}
+
+.wrapper-links-slider .swiper-button-next::after,
+.wrapper-links-slider .swiper-button-prev::after {
+	content: none;
+}
