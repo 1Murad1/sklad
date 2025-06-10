@@ -1048,6 +1048,7 @@ a.forgot {
 	}
 	#mobileheader .mobileheader-v1 .wrapper-whatsapp-chat-mob {
 		display: none;
+		margin-left: 30px;
 	}
 	#mobileheader .mobileheader-v1 .svg-icon-whatsapp-mob {
 		display: flex;
