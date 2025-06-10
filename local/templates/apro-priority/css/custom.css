@@ -1308,3 +1308,15 @@ footer .footer_top .info .subscribe_button {
 .wrapper-links-slider .swiper-button-prev::after {
 	content: none;
 }
+
+/* alfa 165 */
+
+.maxwidth-theme.section-our-team {
+	padding: 0;
+}
+
+@media screen and (max-width: 1376) {
+	.section-carts-employees .wrapper-carts {
+		margin: 0 -32px;
+	}
+}
