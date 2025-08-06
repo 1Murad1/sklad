@@ -996,7 +996,7 @@ a.forgot {
 }
 @media screen and (min-width: 880px) and (max-width: 1200px) {
 	.header-vcustom .right_wrap .right-icons {
-		display: none;
+		display: block;
 	}
 }
 @media screen and (min-width: 992px) and (max-width: 1235px) {
@@ -1020,7 +1020,7 @@ a.forgot {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	gap: 0px;
+	gap: 16px;
 }
 
 .search-mob-icon {
@@ -1042,15 +1042,62 @@ a.forgot {
 #mobileheader .mobileheader-v1 .svg-icon-whatsapp-mob {
 	display: none;
 }
+#mobileheader .mobileheader-v1 .wrapper-whatsapp-chat-mob {
+	margin-right: 14px;
+}
+#mobileheader .logo .small-logo {
+	display: none;
+}
+.order-contact-block {
+	margin-top: -1px;
+	display: flex;
+	flex-direction: column;
+}
+.order-contact-block .phone_number {
+	font-size: 16px;
+	line-height: 20px;
+	border-bottom: 2px dotted #ef5a54;
+	transition: 0.5s all;
+	font-weight: 700;
+	color: #ef5a54;
+}
+.order-contact-block .phone_number:hover {
+	border-color: transparent;
+}
 @media screen and (max-width: 560px) {
+	#mobileheader .mobileheader-v1 .wrapper-whatsapp-chat-mob {
+		margin-right: 4px;
+	}
 	#mobileheader .mobileheader-v1 .label-text-item {
+		display: block;
+		font-size: 10px;
+		line-height: 12px;
+	}
+	#mobileheader .logo .logo-site {
+		display: none;
+	}
+	#mobileheader .logo .small-logo {
+		display: inline-block;
+		min-width: 30px;
+	}
+	#mobileheader .mobileheader-v1 .svg-icon-whatsapp-mob {
 		display: none;
 	}
 	#mobileheader .mobileheader-v1 .wrapper-whatsapp-chat-mob {
-		display: none;
-		margin-left: 30px;
+		display: block;
 	}
-	#mobileheader .mobileheader-v1 .svg-icon-whatsapp-mob {
+	#mobileheader .mobileheader-v1 .right-icons .phone .phone_number {
+		font-size: 11px;
+		line-height: 14px;
+	}
+	.order-contact-block .phone_number {
+		font-size: 11px;
+		line-height: 14px;
+	}
+	#mobileheader .mobileheader-v1 .phone_icon_wa svg {
+		width: 60px;
+	}
+	#mobileheader .mobileheader-v1 .right-icons .phone > div {
 		display: flex;
 	}
 }
@@ -1202,7 +1249,7 @@ footer .footer_top .info .subscribe_button {
 	flex-direction: column;
 	gap: 12px;
 	border: 1px solid rgba(119, 119, 119, 0.2);
-	border-top: none;
+	/* border-top: none; */
 }
 .cart-employee .wrapper-cart-employee .cart-content-employee .name-employee {
 	font-size: 26px;
