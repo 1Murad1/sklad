@@ -1,12 +1,12 @@
-const header = document.querySelector('header_wrap')
+const header = document.querySelector('.header_wrap')
 
 function handleScroll() {
 	const scrollTop = window.pageYOffset || document.documentElement.scrollTop
 
 	if (scrollTop > 0) {
-		header.classList.add('scrolled')
+		header?.classList.add('scrolled')
 	} else {
-		header.classList.remove('scrolled')
+		header?.classList.remove('scrolled')
 	}
 }
 
