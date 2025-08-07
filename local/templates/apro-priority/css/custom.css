@@ -1161,6 +1161,13 @@ footer .footer_top .info .subscribe_button {
 	display: flex;
 	align-items: flex-start;
 }
+.scrolled {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
 @media (max-width: 991px) {
 	footer .footer_top .contact-block {
 		margin-left: 0;
